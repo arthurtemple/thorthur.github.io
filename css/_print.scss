@@ -1,0 +1,13 @@
+
+/* Print utilities */
+.print-only {
+  @media not print {
+    display: none;
+  }
+}
+
+.noprint {
+  @media print {
+    display: none;
+  }
+}
